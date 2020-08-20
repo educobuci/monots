@@ -1,5 +1,6 @@
 {
-  "name": "monots",
+  "name": "@monots/use-cases",
+  "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "main": "dist/index.js",

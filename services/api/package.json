@@ -1,0 +1,20 @@
+{
+  "name": "@monots/api",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@monots/use-cases": "*"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
