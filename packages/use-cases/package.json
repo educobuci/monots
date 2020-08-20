@@ -1,0 +1,9 @@
+{
+  "name": "monots",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  }
+}
