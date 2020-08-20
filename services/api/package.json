@@ -1,6 +1,6 @@
 {
   "name": "@monots/api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "private": true,
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
     "build": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@monots/use-cases": "*"
+    "@monots/use-cases": "^1.0.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.7",
